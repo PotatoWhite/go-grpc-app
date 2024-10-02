@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package main;
+
+option go_package = "pkg/server/generated;generated";
+
+service GreetingService {
+  rpc Greet (GreetingRequest) returns (GreetingResponse) {}
+}
+
+message GreetingRequest {}
+
+message GreetingResponse {
+  string greeting = 1;
+}
