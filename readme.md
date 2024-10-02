@@ -21,7 +21,7 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```bash
 go get google.golang.org/grpc@v1.67.1
 go get google.golang.org/protobuf@v1.34.2
-
+```
 
 ## Makefile
 ```makefile
